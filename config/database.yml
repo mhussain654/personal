@@ -11,7 +11,12 @@ default: &default
 
 development:
   <<: *default
-  database: personal_development
+  host: localhost
+  encoding: utf8
+  database: personal
+  port: 5432
+  username: test
+  password: test
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,6 +24,11 @@ development:
 test:
   <<: *default
   database: personal_test
+  host: localhost
+  encoding: utf8
+  port: 5432
+  username: test
+  password: test
 
 production:
   <<: *default
