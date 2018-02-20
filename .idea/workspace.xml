@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6f4904-674f-49cc-aae0-0ae4fd5aff9f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/personal.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/personal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/project_detail.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/project_detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/animate.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/animate.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/owl.carousel.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/owl.carousel.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/owl.theme.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/owl.theme.min.css.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/personal.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/personal.scss.erb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/project_detail.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/project_detail.scss.erb" />
     </list>
     <ignored path="personal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +35,8 @@
       <file leaf-file-name="application.css.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="830">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +92,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
+      <file leaf-file-name="main.css.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-28.26923" vertical-offset="960" max-vertical-offset="11775">
               <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
@@ -109,8 +112,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css">
+      <file leaf-file-name="font-awesome.min.css.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="135">
               <caret line="3" column="166" selection-start-line="3" selection-start-column="166" selection-end-line="3" selection-end-column="166" />
@@ -636,7 +639,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7307693" vertical-offset="0" max-vertical-offset="135">
           <caret line="3" column="166" selection-start-line="3" selection-start-column="166" selection-end-line="3" selection-end-column="166" />
@@ -705,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.26923" vertical-offset="960" max-vertical-offset="11775">
           <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
@@ -715,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="830">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
