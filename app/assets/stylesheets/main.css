@@ -90,7 +90,7 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
-	background: url(bg/header-bg.jpg) no-repeat center top fixed;
+	background: image-url(bg/header-bg.jpg) no-repeat center top fixed;
 	background-size: cover;
 }
 
@@ -434,7 +434,7 @@ body {
 
 #numbers
 {
-	background: url(bg/number1.gif) repeat center center fixed;
+	background: image-url(bg/number1.gif) repeat center center fixed;
 }
 #numbers .overlay{
     padding: 60px 0px 80px 0px;
@@ -525,7 +525,7 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #contact {
-	background: url(bg/contact-bg.jpg) no-repeat center center fixed;
+	background: image-url(bg/contact-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: #fff;
 }
