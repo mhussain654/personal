@@ -2,7 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6f4904-674f-49cc-aae0-0ae4fd5aff9f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-5efb09d5e688e88fafbf5d2893659a92.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Developer-45657097ef459e2abf523d3f193bafe73b3e9b107adac964a0190c6915c0345f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-bdc5d0b9f397be83e886c74b0141d1954aa4384b359dce49829994c4a2e1f7bf.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-bdc5d0b9f397be83e886c74b0141d1954aa4384b359dce49829994c4a2e1f7bf.otf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-0a9fbdbc41009b3a22df4c4de9ecc81dc502542b4e2977bd8a6cbd22bf75152e.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-0a9fbdbc41009b3a22df4c4de9ecc81dc502542b4e2977bd8a6cbd22bf75152e.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-272c78c1e55824242d5dd97278927880fab0d79de51f3b21b45c08e60248a93c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-272c78c1e55824242d5dd97278927880fab0d79de51f3b21b45c08e60248a93c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-2c1cc705aa379b5550b3808d3bc9357f90b4a86297b642038bbe5f21933f80fe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-2c1cc705aa379b5550b3808d3bc9357f90b4a86297b642038bbe5f21933f80fe.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-2f277680dc9188ee57e2a1c4a6be7c332f23b3ed44e3829d18fa1bafd999f45a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-2f277680dc9188ee57e2a1c4a6be7c332f23b3ed44e3829d18fa1bafd999f45a.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6283b68646aae133074cd79773d4bcb45a96a0281d761407eda421ae431a55c5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6283b68646aae133074cd79773d4bcb45a96a0281d761407eda421ae431a55c5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a31e5d7f3db1d66f554017af335c9ceea0b12264ac241245434773d438c2b9fb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a31e5d7f3db1d66f554017af335c9ceea0b12264ac241245434773d438c2b9fb.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg/bg-2-170e90f6aecdd482f7c509983bb43c05a3203bee0bf8438de97649544d0ce4b3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg/bg-4-a901fb87941677664b671c3fb485610175208679d1762243464e07b2e1939e38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg/contact-bg-b815fc7340d5473bd1e862c79439be7755aefeeb8edcc69ab39a61a30847824f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg/header-bg-4242aa579e3acac148dff5b5d30355c846e89a26ddcaa2c185b2ef14f227aea8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bg/number1-cf4f743c5179d38913117fe26d6f395e8ea15ae264746e1d77b239e2dfb8531b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-9e540a087924a6e64790149d735cac022640e4fa6bff6bd65f5e9f41529bf0b3.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-9e540a087924a6e64790149d735cac022640e4fa6bff6bd65f5e9f41529bf0b3.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-bfdef833219a6edffd9c3cbc28db72739d22bb4d20cc2e2f8d56a7a4d408a206.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-bfdef833219a6edffd9c3cbc28db72739d22bb4d20cc2e2f8d56a7a4d408a206.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-cbb644d0ee730ea57dd5fbae35ef5ba4a41d57a254a6b1215de5c9ff8a321c2d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-cbb644d0ee730ea57dd5fbae35ef5ba4a41d57a254a6b1215de5c9ff8a321c2d.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-e3870de89716b72cb61a4bba0e17c75783b361cdaba35ea96961c3070bd8ca18.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/pacifico-597846655206f27d566e7d8ebb381afc21fa6d0723a69f51a8a7a474bb02eef6.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-a-happy-young-woman-and-her-german-shepherd-dog-are-laying-on-the-grass-outside-hugging-vintage-196561466-9830944e3e3d8daeaeaa5088a477658cad695150a5e5567fd899fb5f3ebe43c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-assorted-food-for-iftar-during-ramadan-196438670-74fb6315484c4e3a60a4664abfbf3298c2fc3ac535d03e33dcf39758b1516230.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-digitally-generated-large-farge-football-stadium-with-brasilian-fans-197727014-fe3bd6cae9dd4a3e549dbcad5baf563698b4ab17549ce4391276a1cbc3d90ed6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-dog-relaxing-on-a-fancy-deck-chair-193526546-10a52b3075d416fa48f3887d74b19e6b404125890e0a378f8a84bf003548eb0b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-family-lying-on-grass-in-park-together-193994486-e8beddd6608d06fd56545bdf8eeb8d1f94cb24fcbd0036d2bc2fd4937be56649.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-kiev-ukraine-june-brand-new-apple-iphone-s-with-youtube-app-on-the-screen-lying-on-197254988-beaf3fd9df4173d6b9f5d22d00962d05dea855924eb806f87534f25f414afa50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-photo-rio-de-janeiro-brazil-june-messi-at-world-cup-group-f-game-between-argentina-and-198943448-524a73416818e3b369aa23f2648e787132b91b8b2466ec61c551ed0ec8bf07ef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/stock-vector-flat-modern-design-vector-illustration-concept-of-creative-office-workspace-workplace-icon-195937268-745b5af827572dea2826196ca60591cc4d0a9742e1b3169895a37407dac0ea7f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/testimonial_11-190x190-1b762bb3b5805be40462f1f54310e86f6f720678c1f7d1bbe43f36e260eb1c60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/testimonial_22-190x190-34ba5b3ba8744e4b055852403b32ada06f8de37f4532d0fe8963bdaa36330835.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/testimonial_31-190x190-4179c07085c2c31b2aab7461ac3ec32b51dbb2b8fca19a0923ff5f7d8e1b3ac7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work1-1e011d7e5a9034eaa14bf47618c1fcad232922dd1884f776f57c408b2e1d9c0d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work2-aadb3560f70de19d18dd4a9cb6bfd52cc3f73d40484d4507d9b052bf79808081.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work3-238e4ff0b86849b579a3b36aed47f559231ccaff9692a45e1ebc8eb25a8c0480.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work4-38678147822b00197fe2ad4e370d874d3a221ea8bd1db76f3e4e294e2ea68dd8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work5-8715fc1ade9ab60644094818a7b6411d1409be4a12601062309ab7fc99ba6f84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work6-ab17eb20776618686f98e64cd0dbeba4affb88b584d9542e8afcd413787b2e76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work7-5c2583bba3b276e59ee42c21b896b35c09b9707f0c457361b02d2135a1fd2c40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/work8-01d211be77cde69701355aec78e562278d124539648ec21c0ad0999191bd6a03.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="personal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,18 +82,6 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +139,18 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5199005" vertical-offset="962" max-vertical-offset="11775">
-              <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.30350193" vertical-offset="8049" max-vertical-offset="11775">
+              <caret line="547" column="0" selection-start-line="547" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.884615" vertical-offset="122" max-vertical-offset="1455">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -120,8 +169,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.0" vertical-offset="30" max-vertical-offset="915">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state vertical-scroll-proportion="-10.384615" vertical-offset="0" max-vertical-offset="915">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -148,10 +197,11 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/personal/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/personal/index.haml.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/app/views/personal/index.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
       </list>
     </option>
@@ -216,109 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,15 +461,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1661" height="947" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25262508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25262508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -676,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.026119404" vertical-offset="651" max-vertical-offset="1455">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830">
@@ -706,14 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.0" vertical-offset="30" max-vertical-offset="915">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -758,10 +690,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.384615" vertical-offset="0" max-vertical-offset="915">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.884615" vertical-offset="122" max-vertical-offset="1455">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5199005" vertical-offset="962" max-vertical-offset="11775">
-          <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.30350193" vertical-offset="8049" max-vertical-offset="11775">
+          <caret line="547" column="0" selection-start-line="547" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
           <folding />
         </state>
       </provider>
