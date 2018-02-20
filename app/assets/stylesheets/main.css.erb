@@ -41,7 +41,7 @@ Text Domain: developer
 	font-family: 'Pacifico';
 	font-style: normal;
 	font-weight: 400;
-	src: local('Pacifico Regular'), local('Pacifico-Regular'), url("pacifico.woff") format('woff');
+	src: local('Pacifico Regular'), local('Pacifico-Regular'), url('<%= asset_path("pacifico.woff") %> ') format('woff');
 }
 
 html, body {
@@ -434,7 +434,7 @@ body {
 
 #numbers
 {
-	background: url("bg/number1.gif") repeat center center fixed;
+	background: url('<%= asset_path("bg/number1.gif") %> ') repeat center center fixed;
 }
 #numbers .overlay{
     padding: 60px 0px 80px 0px;
@@ -525,7 +525,7 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #contact {
-	background: url("bg/contact-bg.jpg") no-repeat center center fixed;
+	background: url('<%= asset_path("bg/contact-bg.jpg") %> ') no-repeat center center fixed;
 	background-size: cover;
 	color: #fff;
 }
