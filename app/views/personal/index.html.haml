@@ -1,0 +1,360 @@
+#header.content-block
+  #overlay-1
+    %header#site-header.clearfix
+      .pull-left
+        %h1
+          %a{:href => "#"} Developer
+      .pull-right
+        %nav.navbar.site-nav{:role => "navigation"}
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+              %i.fa.fa-bars.fa-2x
+          / Collect the nav links, forms, and other content for toggling
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            %ul.nav.navbar-nav
+              %li.active
+                %a{:href => "#header"}
+                  %i.fa.fa-home
+                  %span Home
+              %li
+                %a{:href => "#portfolio"}
+                  %i.fa.fa-bookmark
+                  Portfolio
+              %li
+                %a{:href => "#services"}
+                  %i.fa.fa-bullhorn
+                  Me
+              %li
+                %a{:href => "#testimonials"}
+                  %i.fa.fa-thumbs-up
+                  Tetimonials
+              %li
+                %a{:href => "#contact"}
+                  %i.fa.fa-phone-square
+                  Contact
+          / /.navbar-collapse
+    / site-header
+    .middle.text-center.clearfix
+      .container
+        %h1.pro-name
+          Web
+          / <span style="color: #71b644;" >
+          Developer
+          / </span>
+        %p.tagline Bring your dreams to life
+        .skills
+        / skills
+        %a.btn.btn-lg.btn-hire.wow.animated.zoomIn{:href => "#contact", :target => "_blank"} Hire Me
+      / container
+    / middle
+    .bottom.text-center
+      %a{:href => "#portfolio"}
+        %i.fa.fa-angle-down.fa-3x.pulse
+  / overlay-1
+/ content-block
+#portfolio.content-block.text-center
+  %header.block-heading.cleafix
+    %h1 Latest Works
+    / <p>Take a look at some of my recent products</p>
+  .isotope.portfolio-items
+    .element-item.grid
+      .effect-zoe
+        = image_tag "work1.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work2.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work3.png", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work7.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work8.png", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work4.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work5.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+    .element-item.grid
+      .portfolio-item.effect-zoe
+        = image_tag "work6.jpg", class: "img-responsive"
+        %figcaption
+          %h2.hidden-xs
+            Creative
+            %span Joe
+          %p.icon-links
+            %a{:href => "#"}
+              %i.fa.fa-twitter
+            %a{:href => "#"}
+              %i.fa.fa-dribbble
+            %a{:href => "#"}
+              %i.fa.fa-pinterest
+  / isotope portfolio-items
+  %a.btn.btn-lg.btn-view{:href => "#"}
+    %i.fa.fa-eye
+    %span View All
+/ content-block
+#services.content-block.text-center
+  .overlay-2
+    %header.block-heading.cleafix
+      %h1 More About Me
+      %p Lorem Ipsum Text
+    .block-content
+      .container
+        .row
+          .col-md-12
+            .row
+              .col-sm-4
+                %h4.pro-stat Completed Project
+                %h2.proj-name.count1.count-timer 020
+              .col-sm-4
+                %h4.pro-stat Working Project
+                %h2.proj-name.count2 9
+              .col-sm-4
+                %h4.pro-stat Top Rated Project
+                %h2.proj-name.count3 015
+  overlay-2
+/ content-block
+#services.content-block
+  #numbers.parallax
+    .overlay
+      / title
+      .container-fluid.numbers-title
+        .container
+          .row.block-heading
+            %h1 Some Cool Facts About Me
+      .container-fluid
+        / number list
+        %ul.numbersList
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Conferences
+            %span#number1.count1.count-timer 101
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Lines of Code
+            %span#number2.count2 92
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Hours of Work
+            %span#number3.count3 54
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Repositories in Git
+            %span#number4.count4 99
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Mobile APP
+            %span#number5.count5 124
+          %li.col-md-2.col-sm-4.col-xs-6
+            %h4 Happy Client
+            %span#number6.count6 45
+        / numbersList end
+      / container-fluid end
+    / overlay end
+#testimonials.content-block
+  %header.block-heading.cleafix.text-center
+    %h1 What Clients Say
+    / <p>Lorem Ipsum Text</p>
+  .block-content.text-center
+    .container
+      .row
+        .col-md-6.col-md-offset-3
+          .owl-carousel
+            .owl-item
+              .testimonial
+                %img{:alt => "Client Photo", :src => "/assets/testimonial_31-190x190.jpg"}/
+                %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
+                %strong Jhon Doe
+                %br/
+                %span Head of Ideas, Technext
+            / owl-item
+            .owl-item
+              .testimonial
+                %img{:alt => "Client Photo", :src => "/assets/testimonial_11-190x190.jpg"}/
+                %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
+                %strong Jane Doe
+                %br/
+                %span CEO, Apple Inc
+            / owl-item
+            .owl-item
+              .testimonial
+                %img{:alt => "Client Photo", :src => "/assets/testimonial_22-190x190.jpg"}/
+                %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
+                %strong Albert Doe
+                %br/
+                %span Team Lead, Design Studio
+            / owl-item
+          / owl-carousel
+        / col-md-12
+      / row
+    / container
+  / block-content
+/ content-block
+#contact.content-block
+  .overlay-3
+    %header.block-heading.cleafix.text-center
+      %h1 Contact
+      / <p>Feel Free to Contact</p>
+    .block-content.text-center
+      .container
+        .row
+          .col-md-6.wow.animated.fadeInLeft
+            %form.contact-form{:action => "form.php"}
+              %input{:name => "name", :placeholder => "Name", :required => "", :type => "text"}/
+              %input{:name => "email", :placeholder => "Email", :required => "", :type => "email"}/
+              %textarea{:name => "message", :placeholder => "Say Something...", :required => "", :rows => "5"}
+              %input{:type => "submit", :value => "Submit"}/
+          .col-md-6.wow.animated.fadeInRight
+            .row
+              .col-md-12
+                .contact-info
+                  .clearfix
+                    .rotated-icon
+                      .sqaure-nebir
+                      %i.fa.fa-map-marker
+                    %p
+                      %strong Address:
+                      makkah colony, gulberg III, lahore pakistan.
+                  .clearfix
+                    .rotated-icon
+                      .sqaure-nebir
+                      %i.fa.fa-mobile
+                    %p
+                      %strong Cell No:
+                      +923336470508
+                  .clearfix
+                    .rotated-icon
+                      .sqaure-nebir
+                      %i.fa.fa-envelope-o
+                    %p
+                      %strong Email:
+                      mhussain654@gmail.com
+            .row
+              %ul.social-box
+                %li
+                  %a.facebook-icon{:href => "#"}
+                    %i.fa.fa-facebook
+                %li
+                  %a.twitter-icon{:href => "#"}
+                    %i.fa.fa-twitter
+                %li
+                  %a.g-plus-icon{:href => "#"}
+                    %i.fa.fa-google-plus
+                %li
+                  %a.linkedin-icon{:href => "#"}
+                    %i.fa.fa-linkedin
+    / block-content
+  / overlay-3
+/ content-block
+%footer#site-footer
+  .container
+    .row
+      .col-sm-6
+        .copyright © 2018 Hussain
+      .col-sm-6
+        .designed-by
+          Designed By
+          %a{:href => "#", :target => "_blank"} Hussain
+/ site-footer
+/ js
+:javascript
+  new WOW().init();
+:javascript
+  $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+              },
+              600:{
+                  items:1,
+              },
+              1000:{
+                  items:1,
+              }
+          }
+      })
+  });
