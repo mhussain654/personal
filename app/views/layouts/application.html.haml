@@ -10,3 +10,15 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     = yield
+
+%footer#site-footer
+  .container
+    .row
+      .col-sm-6
+        .copyright © 2018 Hussain
+      .col-sm-6
+        .designed-by
+          Designed By
+          %a{:href => "#", :target => "_blank"} Hussain
+/ site-footer
+

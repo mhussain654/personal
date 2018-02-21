@@ -231,7 +231,6 @@
 #testimonials.content-block
   %header.block-heading.cleafix.text-center
     %h1 What Clients Say
-    / <p>Lorem Ipsum Text</p>
   .block-content.text-center
     .container
       .row
@@ -239,7 +238,7 @@
           .owl-carousel
             .owl-item
               .testimonial
-                %img{:alt => "Client Photo", :src => "/assets/testimonial_31-190x190.jpg"}/
+                = image_tag "testimonial_31-190x190.jpg", alt: "Client Photo"
                 %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
                 %strong Jhon Doe
                 %br/
@@ -247,7 +246,7 @@
             / owl-item
             .owl-item
               .testimonial
-                %img{:alt => "Client Photo", :src => "/assets/testimonial_11-190x190.jpg"}/
+                = image_tag "testimonial_11-190x190.jpg", alt: "Client Photo"
                 %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
                 %strong Jane Doe
                 %br/
@@ -255,7 +254,7 @@
             / owl-item
             .owl-item
               .testimonial
-                %img{:alt => "Client Photo", :src => "/assets/testimonial_22-190x190.jpg"}/
+                = image_tag "testimonial_22-190x190.jpg", alt: "Client Photo"
                 %p In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet.
                 %strong Albert Doe
                 %br/
@@ -323,38 +322,3 @@
     / block-content
   / overlay-3
 / content-block
-%footer#site-footer
-  .container
-    .row
-      .col-sm-6
-        .copyright © 2018 Hussain
-      .col-sm-6
-        .designed-by
-          Designed By
-          %a{:href => "#", :target => "_blank"} Hussain
-/ site-footer
-/ js
-:javascript
-  new WOW().init();
-:javascript
-  $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-          loop:true,
-          margin:10,
-          autoplay:true,
-          autoplayTimeout:3000,
-          autoplayHoverPause:true,
-          responsiveClass:true,
-          responsive:{
-              0:{
-                  items:1,
-              },
-              600:{
-                  items:1,
-              },
-              1000:{
-                  items:1,
-              }
-          }
-      })
-  });
