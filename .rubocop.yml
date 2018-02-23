@@ -1,0 +1,211 @@
+require: rubocop-rspec
+
+AllCops:
+  DisplayCopNames: true
+  Include:
+    - Rakefile
+    - config.ru
+    - "**/Gemfile"
+    - "**/*.rake"
+    - "**/*.gemspec"
+  Exclude:
+    - config.ru
+    - bin/**/*
+    - db/**/*
+    - node_modules/**/*
+    - script/**/*
+    - public/**/*
+    - hotfixes/20??/*
+    - config/environments/development_local.rb
+  TargetRubyVersion: 2.2
+  TargetRailsVersion: 4.2
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  SupportedStyles:
+    - single_quotes
+    - double_quotes
+
+Style/FormatString:
+  EnforcedStyle: sprintf
+  SupportedStyles:
+    - format
+    - sprintf
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+  SupportedStyles:
+    - only_raise
+    - only_fail
+    - semantic
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Alias:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Semicolon:
+  AllowAsExpressionSeparator: true
+
+Style/GuardClause:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/VariableNumber:
+  Enabled: false
+
+Style/YodaCondition:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/MethodMissing:
+  Enabled: false
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: no_space
+  SupportedStyles:
+    - space
+    - no_space
+
+Layout/MultilineAssignmentLayout:
+  EnforcedStyle: same_line
+  Enabled: true
+
+Layout/IndentHeredoc:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+Rails/Validation:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/OutputSafety:
+  Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+
+RSpec/LeadingSubject:
+  Enabled: false
+
+RSpec/EmptyLineAfterSubject:
+  Enabled: false
+
+RSpec/MessageChain:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 50
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Lint/UnneededSplatExpansion:
+  Enabled: false
+
+Security/JSONLoad:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false

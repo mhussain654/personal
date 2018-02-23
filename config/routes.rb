@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'personal/index'
+  resources :personal, only: [:index] do
+    collection do
+      get "send_email", constraints: { format: :html }
+    end
+  end
 
-  get 'project_detail/index'
-  post 'personal/send_email'
+  resources :project_detail, only: [:index]
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root "personal#index"
 end

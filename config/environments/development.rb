@@ -1,9 +1,10 @@
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+  # Settings specified here will take precedence over
+  # those in config/application.rb.
 
-  # In the development environment your application's code is reloaded on
+  # In the development environment your application"s code is reloaded on
   # every request. This slows down response time but is perfect for development
-  # since you don't have to restart the web server when you make code changes.
+  # since you don"t have to restart the web server when you make code changes.
   config.cache_classes = false
 
   # Do not eager load code on boot.
@@ -13,12 +14,12 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # Enable/disable caching. By default caching is disabled.
-  if Rails.root.join('tmp/caching-dev.txt').exist?
+  if Rails.root.join("tmp/caching-dev.txt").exist?
     config.action_controller.perform_caching = true
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
-      'Cache-Control' => "public, max-age=#{2.days.seconds.to_i}"
+      "Cache-Control" => "public, max-age=#{2.days.seconds.to_i}"
     }
   else
     config.action_controller.perform_caching = false
@@ -26,7 +27,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Don't care if the mailer can't send.
+  # Don"t care if the mailer can"t send.
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
@@ -49,13 +50,13 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
-      :user_name => 'app88121289@heroku.com',
-      :password => 'r9jtdkwh7133',
-      :domain => 'software-developer.herokuapp.com',
-      :address => 'smtp.sendgrid.net',
-      :port => 587,
-      :authentication => :plain,
-      :enable_starttls_auto => true
+    user_name: "app88121289@heroku.com",
+    password: "r9jtdkwh7133",
+    domain: "software-developer.herokuapp.com",
+    address: "smtp.sendgrid.net",
+    port: 587,
+    authentication: :plain,
+    enable_starttls_auto: true
   }
 
   # Raises error for missing translations
@@ -64,4 +65,13 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # Bullet gem config
+  config.after_initialize do
+    Bullet.enable = true
+    Bullet.alert = true
+    Bullet.bullet_logger = true
+    Bullet.console = true
+    Bullet.rails_logger = true
+  end
 end
