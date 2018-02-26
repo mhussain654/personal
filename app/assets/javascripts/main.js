@@ -146,7 +146,7 @@ function countUpTo(count,selector,max)
             speed = Math.round(count / div_by),
             $display = selector,
             run_count = 1,
-            int_speed = 24;
+            int_speed = 60;
 
         var int = setInterval(function() {
             if(run_count < div_by){
@@ -159,9 +159,9 @@ function countUpTo(count,selector,max)
                      if(curr_count<10){
                         text = text+"00"+curr_count;
                     }
-                    /*else if(curr_count < 100 && curr_count >9){
+                    else if(curr_count < 100 && curr_count >9){
                         text = text+"0"+curr_count;
-                    }*/
+                    }
                     else{
                       text = curr_count;
                     }
@@ -169,9 +169,9 @@ function countUpTo(count,selector,max)
                      if(curr_count<10){
                         text = text+"00"+curr_count;
                     }
-                   /*else if(curr_count < 100 && curr_count >9){
+                   else if(curr_count < 100 && curr_count >9){
                         text = text+"0"+curr_count;
-                    }*/
+                    }
                     else{
                       text = curr_count;
                     }
@@ -179,9 +179,9 @@ function countUpTo(count,selector,max)
                       if(curr_count<10){
                         text = text+"00"+curr_count;
                     }
-                   /*else if(curr_count < 100 && curr_count >9){
+                   else if(curr_count < 100 && curr_count >9){
                         text = text+"0"+curr_count;
-                    }*/
+                    }
                     else{
                       text = curr_count;
                     }

@@ -5,7 +5,7 @@ class PersonalController < ApplicationController
   end
 
   def portfolio
-    render :partial => "personal/portfolio"
+    render partial: "personal/portfolio"
   end
 
   def send_email
