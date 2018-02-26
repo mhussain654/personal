@@ -14,6 +14,7 @@
 #= require jquery-2.1.3.min
 #= require bootstrap.min
 #= require jquery.actual.min
+#= require isotope.pkgd
 #= require owl.carousel.min
 #= require jquery.isonscreen
 #= require main

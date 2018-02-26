@@ -1,0 +1,45 @@
+#header.content-block
+  #overlay-1
+    %header#site-header.clearfix
+      .pull-left
+        %h1
+          %a{:href => "#"} Engineering
+      .pull-right
+        %nav.navbar.site-nav{:role => "navigation"}
+          .navbar-header
+            %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+              %i.fa.fa-bars.fa-2x
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            %ul.nav.navbar-nav
+              %li.active
+                %a{:href => "#header"}
+                  %i.fa.fa-home
+                  %span Home
+              %li
+                %a{:href => "#portfolio"}
+                  %i.fa.fa-bookmark
+                  Portfolio
+              %li
+                %a{:href => "#services"}
+                  %i.fa.fa-bullhorn
+                  Me
+              %li
+                %a{:href => "#testimonials"}
+                  %i.fa.fa-thumbs-up
+                  Tetimonials
+              %li
+                %a{:href => "#contact"}
+                  %i.fa.fa-phone-square
+                  Contact
+    .middle.text-center.clearfix
+      .container
+        %h1.pro-name
+          Software
+          %span{style: "color: #71b644;"}
+            Engineering
+        %p.tagline Bring your dreams to life
+        .skills
+        %a.btn.btn-lg.btn-hire.wow.animated.zoomIn{:href => "#contact", :target => "_blank"} Hire Me
+    .bottom.text-center
+      %a{:href => "#portfolio"}
+        %i.fa.fa-angle-down.fa-3x.pulse

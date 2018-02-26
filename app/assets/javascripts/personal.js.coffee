@@ -3,12 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).ready ->
-  console.log 'ready!'
   new WOW().init();
-  return
 
-
-$(document).ready ->
   $('.owl-carousel').owlCarousel
     loop: true
     margin: 10
@@ -20,4 +16,6 @@ $(document).ready ->
       0: items: 1
       600: items: 1
       1000: items: 1
+
+  $('#portfolio').load '/personal/portfolio'
   return
